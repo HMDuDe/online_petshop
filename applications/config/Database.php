@@ -60,11 +60,6 @@
             parent::__construct();
         }
 
-        /**
-         * @return false if query contains dangerous statements
-         */
-        private function query_validate(){
-
-        }
+        
     }
 ?>
