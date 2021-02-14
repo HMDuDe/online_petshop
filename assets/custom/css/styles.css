@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+
+/* Styling for by class */
+.manage-products{
+    padding: 1%;
+    margin-top: 5%;
+    border-radius: 15px;
+    height: 500pt;
+}

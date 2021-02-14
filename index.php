@@ -1,5 +1,1 @@
-<?php session_start(); ?>
-<?php 
-    // Initialise database
-    
-?>
+<?php include 'applications/layouts/prototypes/dashboard.html'; ?>

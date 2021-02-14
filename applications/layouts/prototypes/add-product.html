@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Bootstrap Configuration -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="../../../assets/node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="../../../assets/custom/css/styles.css">
+    </head>
+
+    <body>
+        <div class="navigation">
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top justify-content-center">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Orders</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">To-Dos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Notifications</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Page Information</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My Account</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container">
+            <div class="manage-products">
+                <h1>Product Management</h1>
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../../applications/layouts/prototypes/dashboard.html">All Products</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Add Product</a>
+                    </li>
+                </ul>
+
+                <form action="" method="post">
+                    <fieldset>
+                        <legend>Basic Information</legend>
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label for="prod_type">Product Type <b style="color: red;">*</b></label>
+                                    <select id="prod_type" class="form-control" name="prod_type">
+                                        <option>Pet Food</option>
+                                        <option>Toys/accessories</option>
+                                        <option>Animal Health</option>
+                                        
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="prod_name">Product Name <b style="color: red;">*</b></label>
+                                    <input id="prod_name" class="form-control" type="text" name="prod_name">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="amount_in_stock">Amount In Stock <b style="color: red;">*</b></label>
+                                    <input id="amount_in_stock" class="form-control" type="text" name="amount_in_stock">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="prod_price">Price <b style="color: red;">*</b></label>
+                                    <input id="prod_price" class="form-control" type="number" name="prod_price">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="prod_img">Picture <b style="color: red;">*</b></label>
+                                    <input id="prod_img" class="form-control" type="file" name="prod_img">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label for="prod_description">Product Description <b style="color: red;">*</b></label>
+                                    <textarea id="prod_description" class="form-control" name="prod_description" rows="3"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <!-- Form submit -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <button class="btn btn-success" type="submit">Save Product</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Bootstrap JS -->
+        <script src="../../../assets/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="../../../assets/node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="../../../assets/node_modules/popper.js/dist/popper.min.js"></script>
+    </body>
+</html>
