@@ -1,1 +1,1 @@
-<?php include 'applications/layouts/prototypes/dashboard.html'; ?>
+<?php include 'applications/layouts/prototypes/login-page.html'; ?>

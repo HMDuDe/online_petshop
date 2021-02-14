@@ -7,19 +7,46 @@ body{
     padding: 1%;
     margin-top: 5%;
     border-radius: 15px;
-    height: 500pt;
+    height: 400pt;
 }
 
 .cust-orders{
     padding: 1%;
     margin-top: 5%;
     border-radius: 15px;
-    height: 500pt;
+    height: 400pt;
 }
 
 .manage-notifications{
     padding: 1%;
     margin-top: 5%;
     border-radius: 15px;
-    height: 500pt;
+    height: 400pt;
+}
+
+.manage-page-info{
+    padding: 1%;
+    margin-top: 5%;
+    border-radius: 15px;
+    height: 400pt;
+}
+
+.login-screen{
+    margin-top: 4%;
+    width: 35%;
+    margin-left: 32%;
+    padding: 2%;
+    box-shadow: 1px -1px 10px;
+    border-radius: 15pt;
+    text-align: center;
+}
+
+#login-screen-logo{
+    margin-left: 10%;
+    width: 300px;
+    height: auto;
+}
+
+#login-btn{
+    width: 100%;
 }
